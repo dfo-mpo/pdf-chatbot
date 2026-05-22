@@ -3,6 +3,8 @@ This tool uses OpenAI's language model to answer questions about uploaded docume
 
 Like the CSV/PDF Analyzer, this tool originates from pilot projects using OCR and OpenAI to extract and summarize data from documents; however, it does one prompt at a time and uses retrieval-augmented generation (RAG) using chromadb (non persistent database). RAG allows only relevant chunks of the uploaded document to be passed to OpenAI for a given prompt, reducing processing time and cost. 
 
+A detailed documentation can be found [here](https://086gc.sharepoint.com/:w:/r/sites/OCDO/_layouts/15/Doc.aspx?sourcedoc=%7BCFB8CB0C-145E-4218-BD70-F0D0A1E9C110%7D&file=PDF%20Chatbot%20Documentation.docx&action=default&mobileredirect=true).
+
 Note that this repository is strictly the backend logic for this tool. The frontend is hosted on the OCDS Educational AI Hub found [here](https://github.com/dfo-mpo/SDPA-AI-Portal).
 
 ## HTTP Requests Handled Internally   
